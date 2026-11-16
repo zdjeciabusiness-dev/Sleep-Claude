@@ -1,0 +1,35 @@
+SLEEP TRACKER - INSTALACJA NA TELEFONIE
+
+Aplikacja musi najpierw trafić pod jakiś adres w internecie (to jednorazowe, darmowe).
+Potem instalujesz ją z telefonu jednym dotknięciem.
+
+KROK 1: wrzuć pliki do internetu (wybierz jedną drogę)
+
+A) GitHub Pages (darmowe, adres zostaje na stałe)
+ 1. Załóż konto na github.com i utwórz nowe repozytorium (np. "sleep"), publiczne.
+ 2. Wejdź w repozytorium: "Add file" > "Upload files". Przeciągnij WSZYSTKIE pliki z tego folderu
+    (index.html, manifest.webmanifest, sw.js i cztery pliki .png). Zatwierdź przyciskiem "Commit changes".
+ 3. Settings > Pages > Source: "Deploy from a branch", Branch: main, folder: / (root). Zapisz.
+ 4. Po minucie lub dwóch pojawi się adres w stylu https://TWOJA-NAZWA.github.io/sleep/
+
+B) Netlify (też darmowe)
+ 1. Załóż konto na netlify.com.
+ 2. Wejdź na app.netlify.com/drop i przeciągnij cały folder na stronę.
+ 3. Dostaniesz adres do aplikacji. Zaloguj się, żeby strona nie zniknęła.
+
+KROK 2: zainstaluj na telefonie
+
+iPhone (Safari, musi być Safari):
+ Otwórz adres > przycisk Udostępnij > "Dodaj do ekranu początkowego" > Dodaj.
+
+Android (Chrome):
+ Otwórz adres > menu z trzema kropkami > "Zainstaluj aplikację" (lub "Dodaj do ekranu głównego").
+
+Aplikacja otworzy się we własnym oknie, bez paska przeglądarki, i będzie działać bez internetu.
+
+WAŻNE
+ - Dane zapisują się w pamięci telefonu, w tej zainstalowanej aplikacji. Nie łączą się z wersją
+   z Claude ani z innymi urządzeniami.
+ - Używaj zawsze tej samej zainstalowanej aplikacji. Jeśli ją usuniesz albo wyczyścisz dane
+   przeglądarki, historia zniknie.
+ - Po zmianie plików na hostingu zamknij aplikację i otwórz ją dwa razy, żeby pobrała nową wersję.
